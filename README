@@ -1,0 +1,3 @@
+This wordpress theme was written specifically for indiecraftshows.com, but is free for anyone to use should they feel so incline.
+
+It is currently configured to load the stylesheet directly from indiecraftshows.com, but the core.css file is also included in the repository. Should you wish to adapt it for your own use just change the stylesheet link to use the local one rather than the remote.
