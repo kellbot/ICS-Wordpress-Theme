@@ -249,31 +249,26 @@ ul#nav {
   list-style: none;
   bottom: 0;
   max-width: 65%; }
-
-ul#nav li {
-  float: left;
-  margin: 0 10px 0 0;
-  background: url(/images/nav_tab_right.gif) no-repeat right top;
-  position: relative;
-  bottom: -1px; }
-
-ul#nav li a, ul#nav li.current_page_item a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  padding: 5px 15px;
-  background: url(/images/nav_tab_left.gif) no-repeat left top;
-  color: #ffffee; }
-
-ul#nav li.selected a, ul#nav li.current_page_item a {
-  background: url(/images/nav_tab_selected_left.gif) no-repeat left top;
-  color: #005b7f; }
-
-ul#nav li.selected {
-  background: url(/images/nav_tab_selected_right.gif) no-repeat right top; }
-
-ul#nav a:focus {
-  outline: none; }
+  ul#nav a:focus {
+    outline: none; }
+  ul#nav li {
+    float: left;
+    margin: 0 10px 0 0;
+    background: url(/images/nav_tab_right.gif) no-repeat right top;
+    position: relative;
+    bottom: -1px; }
+    ul#nav li a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 15px;
+      background: url(/images/nav_tab_left.gif) no-repeat left top;
+      color: #ffffee; }
+    ul#nav li.selected, ul#nav li.current_page_item {
+      background: url(/images/nav_tab_selected_right.gif) no-repeat right top; }
+      ul#nav li.selected a, ul#nav li.current_page_item a {
+        background: url(/images/nav_tab_selected_left.gif) no-repeat left top;
+        color: #005b7f; }
 
 /******** Search Bar ********/
 #search-bar {
