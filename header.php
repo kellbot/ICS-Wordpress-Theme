@@ -36,7 +36,7 @@
 	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
 	
-	<link href="http://beta.indiecraftshows.com/stylesheets/core.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="http://www.indiecraftshows.com/stylesheets/core.css" media="screen" rel="stylesheet" type="text/css" />
 
 	
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -51,7 +51,7 @@
 	
     <div id="header">
       <div class="container_width">
-        <h1 id="logo"><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+        <h1 id="logo"><a href="http://www.indiecraftshows.com/">The Indie Craft Show Directory</a></h1>
       
         <?php wp_nav_menu( array( 'theme_location' => 'main-menu', 'container' => false, 'menu_id' => 'nav' ) ); ?>
 
