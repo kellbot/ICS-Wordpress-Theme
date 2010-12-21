@@ -1,5 +1,7 @@
 <?php get_header(); ?>
+
 <div id="content">
+<?php get_featured(); ?>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 		<div <?php post_class('main-box') ?> id="post-<?php the_ID(); ?>">

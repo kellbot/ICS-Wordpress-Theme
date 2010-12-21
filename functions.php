@@ -41,5 +41,14 @@
       );
     }
 
+function get_featured() {
+  $furl = 'http://www.indiecraftshows.com/iframe/featured';
+  $ch = curl_init();
+
+  // set URL and other appropriate options
+  curl_setopt($ch, CURLOPT_URL, $furl);
+  curl_setopt($ch, CURLOPT_HEADER, 0);
+  curl_exec($ch);
+}
 
 ?>
