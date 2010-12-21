@@ -98,7 +98,7 @@ li.cat-item {
 }
 
 #text-4 {
-	background: none;
+	background: none !important;
 } /* END screen media */
 
 
