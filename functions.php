@@ -1,5 +1,9 @@
 <?php
 	
+	// Image settings
+	add_theme_support( 'post-thumbnails' ); 
+	set_post_thumbnail_size( 200, 200);
+	
 	// Add RSS links to <head> section
 	automatic_feed_links();
 	
